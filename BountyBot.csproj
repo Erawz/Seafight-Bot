@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E603D2CA-78F5-4AAA-A206-0B21EC778508}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BoxyBot</RootNamespace>
+    <AssemblyName>BoxyBot</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>BoxyBot.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BCMakeCert">
+      <HintPath>C:\Users\DennisK\Desktop\FiddlerCoreAPI\BCMakeCert.dll</HintPath>
+    </Reference>
+    <Reference Include="CertMaker">
+      <HintPath>C:\Users\DennisK\Desktop\FiddlerCoreAPI\CertMaker.dll</HintPath>
+    </Reference>
+    <Reference Include="Costura, Version=1.6.2.0, Culture=neutral, PublicKeyToken=9919ef960d84173d, processorArchitecture=MSIL">
+      <HintPath>..\packages\Costura.Fody.1.6.2\lib\dotnet\Costura.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="EQATEC.Analytics.Monitor, Version=3.3.43.0, Culture=neutral, PublicKeyToken=213c7c68adb58a17, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\DennisK\Desktop\FiddlerCoreAPI\EQATEC.Analytics.Monitor.dll</HintPath>
+    </Reference>
+    <Reference Include="FiddlerCore, Version=4.4.5.3, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\DennisK\Desktop\FiddlerCoreAPI\FiddlerCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\PolskaBotRemote-develop\Remote\bin\Debug\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="allMonstersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="allMonstersForm.Designer.cs">
+      <DependentUpon>allMonstersForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="allNPCsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="allNPCsForm.Designer.cs">
+      <DependentUpon>allNPCsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bot.cs" />
+    <Compile Include="BotCalculator.cs" />
+    <Compile Include="BotHandlers.cs" />
+    <Compile Include="BotLogic.cs" />
+    <Compile Include="BotMethods.cs" />
+    <Compile Include="BotSession.cs" />
+    <Compile Include="BotSettings.cs" />
+    <Compile Include="loginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loginForm.Designer.cs">
+      <DependentUpon>loginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="paymentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="paymentForm.Designer.cs">
+      <DependentUpon>paymentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Client.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HttpWeb\HttpClient.cs" />
+    <Compile Include="HttpWeb\RequestBuilder.cs" />
+    <Compile Include="HttpWeb\RequestMethod.cs" />
+    <Compile Include="Licensing\AuthClient.cs" />
+    <Compile Include="Licensing\Crypt.cs" />
+    <Compile Include="Licensing\FingerPrint.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Proxy\BrowserProxy.cs" />
+    <Compile Include="Proxy\WinInetInterop.cs" />
+    <Compile Include="Seafight\Account.cs" />
+    <Compile Include="Seafight\Message.cs" />
+    <Compile Include="Seafight\Messages\AcceptLoginBonusMessage.cs" />
+    <Compile Include="Seafight\Messages\LootStub.cs" />
+    <Compile Include="Seafight\Messages\QuestCreateMessage.cs" />
+    <Compile Include="Seafight\Messages\QuestMessage.cs" />
+    <Compile Include="Seafight\Messages\ActionItemUseMessage.cs" />
+    <Compile Include="Seafight\Messages\ActionItemAttackMessage.cs" />
+    <Compile Include="Seafight\Messages\DisplayHitMessage.cs" />
+    <Compile Include="Seafight\Messages\EntityInfo.cs" />
+    <Compile Include="Seafight\Messages\EntityTargetAction.cs" />
+    <Compile Include="Seafight\Messages\HarpoonAttackMessage.cs" />
+    <Compile Include="Seafight\Messages\CannonAttackMessage.cs" />
+    <Compile Include="Seafight\Messages\AbortAttackMessage.cs" />
+    <Compile Include="Seafight\Messages\BoardUserMessage.cs" />
+    <Compile Include="Seafight\Messages\BonusMapStub.cs" />
+    <Compile Include="Seafight\Messages\BonusMapMessage.cs" />
+    <Compile Include="Seafight\Messages\BoxRemoveMessage.cs" />
+    <Compile Include="Seafight\Messages\BoxInitMessage.cs" />
+    <Compile Include="Seafight\Messages\ChangeDesignMessage.cs" />
+    <Compile Include="Seafight\Messages\ClientInitMessage.cs" />
+    <Compile Include="Seafight\Messages\LoginBonusAvailableMessage.cs" />
+    <Compile Include="Seafight\Messages\LogoutMessage.cs" />
+    <Compile Include="Seafight\Messages\MapChangeDelayedAskMessage.cs" />
+    <Compile Include="Seafight\Messages\MapChangeDelayedMessage.cs" />
+    <Compile Include="Seafight\Messages\MapChangeRequestMessage.cs" />
+    <Compile Include="Seafight\Messages\MapStub.cs" />
+    <Compile Include="Seafight\Messages\MapTileStub.cs" />
+    <Compile Include="Seafight\Messages\MapChangeAskMessage.cs" />
+    <Compile Include="Seafight\Messages\MonsterInitMessage.cs" />
+    <Compile Include="Seafight\Messages\MonsterRemoveMessage.cs" />
+    <Compile Include="Seafight\Messages\PlayerInitMessage.cs" />
+    <Compile Include="Seafight\Messages\PositionStub.cs" />
+    <Compile Include="Seafight\Messages\MapReturnToMapMessage.cs" />
+    <Compile Include="Seafight\Messages\QuestCompletedMessage.cs" />
+    <Compile Include="Seafight\Messages\QuestOngoingMessage.cs" />
+    <Compile Include="Seafight\Messages\QuestConditionStub.cs" />
+    <Compile Include="Seafight\Messages\QuestPreConditionStub.cs" />
+    <Compile Include="Seafight\Messages\ShipEntityInfoType.cs" />
+    <Compile Include="Seafight\Messages\ShipPointsStub.cs" />
+    <Compile Include="Seafight\Messages\StopMessage.cs" />
+    <Compile Include="Seafight\Messages\TowerInitMessage.cs" />
+    <Compile Include="Seafight\Messages\ActionItemStub.cs" />
+    <Compile Include="Seafight\Messages\ActionItemInitMessage.cs" />
+    <Compile Include="Seafight\Messages\ActionItemUpdateMessage.cs" />
+    <Compile Include="Seafight\Messages\UserInitMessage.cs" />
+    <Compile Include="Seafight\Messages\IconMessage.cs" />
+    <Compile Include="Seafight\Messages\MapChangeMessage.cs" />
+    <Compile Include="Seafight\Messages\AmsUpdateValue.cs" />
+    <Compile Include="Seafight\Messages\AmsUpdateMessage.cs" />
+    <Compile Include="Seafight\Messages\ShipRemoveMessage.cs" />
+    <Compile Include="Seafight\Messages\MoveMessage.cs" />
+    <Compile Include="Seafight\Messages\DisplayResourceIDMessage.cs" />
+    <Compile Include="Seafight\Messages\RepairMessage.cs" />
+    <Compile Include="Seafight\Messages\MapReturnToOldMapMessage.cs" />
+    <Compile Include="Seafight\Messages\ShipInitMessage.cs" />
+    <Compile Include="Seafight\Messages\RouteMessage.cs" />
+    <Compile Include="Seafight\Messages\InventoryItemStub.cs" />
+    <Compile Include="Seafight\Messages\InventoryMessage.cs" />
+    <Compile Include="Seafight\Constants\AmsTypes.cs" />
+    <Compile Include="Seafight\Constants\BonusMapConstants.cs" />
+    <Compile Include="Seafight\Constants\Items.cs" />
+    <Compile Include="Seafight\Messages\UseTeleportMessage.cs" />
+    <Compile Include="Seafight\Reader.cs" />
+    <Compile Include="Server.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="TaskSystem\TasksSystem.cs" />
+    <Compile Include="TaskSystem\Task.cs" />
+    <Compile Include="TaskSystem\TaskTypes.cs" />
+    <Compile Include="Util\HelpTools.cs" />
+    <Compile Include="Util\StringCipher.cs" />
+    <EmbeddedResource Include="allMonstersForm.resx">
+      <DependentUpon>allMonstersForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="allNPCsForm.resx">
+      <DependentUpon>allNPCsForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loginForm.resx">
+      <DependentUpon>loginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="paymentForm.resx">
+      <DependentUpon>paymentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Scripts\jquery-2.1.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Title.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="FodyWeavers.xml" />
+    <Content Include="Icon.ico" />
+    <None Include="Resources\gfx.swf" />
+    <Content Include="Scripts\jquery-2.1.1.intellisense.js" />
+    <Content Include="Scripts\jquery-2.1.1.js" />
+    <Content Include="Scripts\jquery-2.1.1.min.js" />
+    <Content Include="Scripts\nugetexample.js" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Fody.2.1.0\build\netstandard1.0\Fody.targets" Condition="Exists('..\packages\Fody.2.1.0\build\netstandard1.0\Fody.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Dieses Projekt verweist auf mindestens ein NuGet-Paket, das auf diesem Computer fehlt. Verwenden Sie die Wiederherstellung von NuGet-Paketen, um die fehlenden Dateien herunterzuladen. Weitere Informationen finden Sie unter "http://go.microsoft.com/fwlink/?LinkID=322105". Die fehlende Datei ist "{0}".</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Fody.2.1.0\build\netstandard1.0\Fody.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Fody.2.1.0\build\netstandard1.0\Fody.targets'))" />
+    <Error Condition="!Exists('..\packages\Costura.Fody.1.6.2\build\dotnet\Costura.Fody.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Costura.Fody.1.6.2\build\dotnet\Costura.Fody.targets'))" />
+  </Target>
+  <Import Project="..\packages\Costura.Fody.1.6.2\build\dotnet\Costura.Fody.targets" Condition="Exists('..\packages\Costura.Fody.1.6.2\build\dotnet\Costura.Fody.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
