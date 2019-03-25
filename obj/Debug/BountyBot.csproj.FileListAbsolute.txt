@@ -1,0 +1,14 @@
+C:\Users\Maxence\Desktop\Mon BOT\BoxyBot\bin\Debug\BoxyBot.exe.config
+C:\Users\Maxence\Desktop\Mon BOT\BoxyBot\bin\Debug\BoxyBot.exe
+C:\Users\Maxence\Desktop\Mon BOT\BoxyBot\bin\Debug\BoxyBot.pdb
+C:\Users\Maxence\Desktop\Mon BOT\BoxyBot\obj\Debug\BountyBot.csprojAssemblyReference.cache
+C:\Users\Maxence\Desktop\Mon BOT\BoxyBot\obj\Debug\BoxyBot.AllMonstersForm.resources
+C:\Users\Maxence\Desktop\Mon BOT\BoxyBot\obj\Debug\BoxyBot.AllNPCsForm.resources
+C:\Users\Maxence\Desktop\Mon BOT\BoxyBot\obj\Debug\BoxyBot.LoginForm.resources
+C:\Users\Maxence\Desktop\Mon BOT\BoxyBot\obj\Debug\BoxyBot.PaymentForm.resources
+C:\Users\Maxence\Desktop\Mon BOT\BoxyBot\obj\Debug\BoxyBot.Form1.resources
+C:\Users\Maxence\Desktop\Mon BOT\BoxyBot\obj\Debug\BoxyBot.Properties.Resources.resources
+C:\Users\Maxence\Desktop\Mon BOT\BoxyBot\obj\Debug\BountyBot.csproj.GenerateResource.cache
+C:\Users\Maxence\Desktop\Mon BOT\BoxyBot\obj\Debug\BountyBot.csproj.CoreCompileInputs.cache
+C:\Users\Maxence\Desktop\Mon BOT\BoxyBot\obj\Debug\BoxyBot.exe
+C:\Users\Maxence\Desktop\Mon BOT\BoxyBot\obj\Debug\BoxyBot.pdb

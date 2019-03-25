@@ -1,0 +1,56 @@
+C:/Users/DennisK/Desktop/BoxyBot/BoxyBot/bin/Debug/BoxyBot.exe.config
+C:/Users/DennisK/Desktop/BoxyBot/BoxyBot/obj/Debug/BoxyBot.exe
+C:/Users/DennisK/Desktop/BoxyBot/BoxyBot/obj/Debug/BoxyBot.pdb
+C:/Users/DennisK/Desktop/BoxyBot/BoxyBot/obj/Debug/BoxyBot.csprojResolveAssemblyReference.cache
+C:/Users/DennisK/Desktop/BoxyBot/BoxyBot/obj/Debug/BoxyBot.Form1.resources
+C:/Users/DennisK/Desktop/BoxyBot/BoxyBot/obj/Debug/BoxyBot.LogInForm.resources
+C:/Users/DennisK/Desktop/BoxyBot/BoxyBot/obj/Debug/BoxyBot.Properties.Resources.resources
+C:/Users/DennisK/Desktop/BoxyBot/BoxyBot/obj/Debug/BoxyBot.csproj.GenerateResource.Cache
+C:/Users/DennisK/Desktop/BoxyBot/BoxyBot/bin/Debug/BoxyBot.exe
+C:/Users/DennisK/Desktop/BoxyBot/BoxyBot/bin/Debug/BoxyBot.pdb
+C:/Users/DennisK/Desktop/BoxyBot/BoxyBot/bin/Debug/FiddlerCore.dll
+C:/Users/DennisK/Desktop/BoxyBot/BoxyBot/bin/Debug/EQATEC.Analytics.Monitor.dll
+C:/Users/DennisK/Desktop/BoxyBot/BoxyBot/bin/Debug/FiddlerCore.pdb
+C:/Users/DennisK/Desktop/BoxyBot/BoxyBot/bin/Debug/FiddlerCore.xml
+D:/Anwendungen/Microsoft Visual Studio/Projects/Seafight/BoxyBot/BoxyBot/bin/Debug/BoxyBot.exe.config
+D:/Anwendungen/Microsoft Visual Studio/Projects/Seafight/BoxyBot/BoxyBot/bin/Debug/BoxyBot.exe
+D:/Anwendungen/Microsoft Visual Studio/Projects/Seafight/BoxyBot/BoxyBot/bin/Debug/BoxyBot.pdb
+D:/Anwendungen/Microsoft Visual Studio/Projects/Seafight/BoxyBot/BoxyBot/obj/Debug/BoxyBot.csprojResolveAssemblyReference.cache
+D:/Anwendungen/Microsoft Visual Studio/Projects/Seafight/BoxyBot/BoxyBot/obj/Debug/BoxyBot.allMonstersForm.resources
+D:/Anwendungen/Microsoft Visual Studio/Projects/Seafight/BoxyBot/BoxyBot/obj/Debug/BoxyBot.allNPCsForm.resources
+D:/Anwendungen/Microsoft Visual Studio/Projects/Seafight/BoxyBot/BoxyBot/obj/Debug/BoxyBot.Form1.resources
+D:/Anwendungen/Microsoft Visual Studio/Projects/Seafight/BoxyBot/BoxyBot/obj/Debug/BoxyBot.Properties.Resources.resources
+D:/Anwendungen/Microsoft Visual Studio/Projects/Seafight/BoxyBot/BoxyBot/obj/Debug/BoxyBot.csproj.GenerateResource.Cache
+D:/Anwendungen/Microsoft Visual Studio/Projects/Seafight/BoxyBot/BoxyBot/obj/Debug/BoxyBot.exe
+D:/Anwendungen/Microsoft Visual Studio/Projects/Seafight/BoxyBot/BoxyBot/obj/Debug/BoxyBot.pdb
+D:/Anwendungen/Microsoft Visual Studio/Projects/Seafight/BoxyBot/BoxyBot/obj/Debug/BoxyBot.paymentForm.resources
+D:/Anwendungen/Microsoft Visual Studio/Projects/Seafight/BoxyBot/BoxyBot/obj/Debug/BoxyBot.loginForm.resources
+/Users/dennis/Documents/Projects/Seafight/BoxyBot/BoxyBot/bin/Debug/BoxyBot.exe.config
+/Users/dennis/Documents/Projects/Seafight/BoxyBot/BoxyBot/bin/Debug/BoxyBot.exe
+/Users/dennis/Documents/Projects/Seafight/BoxyBot/BoxyBot/bin/Debug/BoxyBot.pdb
+/Users/dennis/Documents/Projects/Seafight/BoxyBot/BoxyBot/obj/Debug/BoxyBot.csprojResolveAssemblyReference.cache
+/Users/dennis/Documents/Projects/Seafight/BoxyBot/BoxyBot/obj/Debug/BoxyBot.csproj.BoxyBot.exe.config
+/Users/dennis/Documents/Projects/Seafight/BoxyBot/BoxyBot/obj/Debug/BoxyBot.allMonstersForm.resources
+/Users/dennis/Documents/Projects/Seafight/BoxyBot/BoxyBot/obj/Debug/BoxyBot.allNPCsForm.resources
+/Users/dennis/Documents/Projects/Seafight/BoxyBot/BoxyBot/obj/Debug/BoxyBot.loginForm.resources
+/Users/dennis/Documents/Projects/Seafight/BoxyBot/BoxyBot/obj/Debug/BoxyBot.paymentForm.resources
+/Users/dennis/Documents/Projects/Seafight/BoxyBot/BoxyBot/obj/Debug/BoxyBot.Form1.resources
+/Users/dennis/Documents/Projects/Seafight/BoxyBot/BoxyBot/obj/Debug/BoxyBot.Properties.Resources.resources
+/Users/dennis/Documents/Projects/Seafight/BoxyBot/BoxyBot/obj/Debug/BoxyBot.csproj.GenerateResource.Cache
+/Users/dennis/Documents/Projects/Seafight/BoxyBot/BoxyBot/obj/Debug/BoxyBot.csproj.CoreCompileInputs.cache
+/Users/dennis/Documents/Projects/Seafight/BoxyBot/BoxyBot/obj/Debug/BoxyBot.exe
+/Users/dennis/Documents/Projects/Seafight/BoxyBot/BoxyBot/obj/Debug/BoxyBot.pdb
+C:\Users\Maxence\Desktop\Mon BOT\BoxyBot\bin\Debug\BoxyBot.exe.config
+C:\Users\Maxence\Desktop\Mon BOT\BoxyBot\bin\Debug\BoxyBot.exe
+C:\Users\Maxence\Desktop\Mon BOT\BoxyBot\bin\Debug\BoxyBot.pdb
+C:\Users\Maxence\Desktop\Mon BOT\BoxyBot\obj\Debug\BoxyBot.csprojAssemblyReference.cache
+C:\Users\Maxence\Desktop\Mon BOT\BoxyBot\obj\Debug\BoxyBot.AllMonstersForm.resources
+C:\Users\Maxence\Desktop\Mon BOT\BoxyBot\obj\Debug\BoxyBot.AllNPCsForm.resources
+C:\Users\Maxence\Desktop\Mon BOT\BoxyBot\obj\Debug\BoxyBot.LoginForm.resources
+C:\Users\Maxence\Desktop\Mon BOT\BoxyBot\obj\Debug\BoxyBot.PaymentForm.resources
+C:\Users\Maxence\Desktop\Mon BOT\BoxyBot\obj\Debug\BoxyBot.Form1.resources
+C:\Users\Maxence\Desktop\Mon BOT\BoxyBot\obj\Debug\BoxyBot.Properties.Resources.resources
+C:\Users\Maxence\Desktop\Mon BOT\BoxyBot\obj\Debug\BoxyBot.csproj.GenerateResource.cache
+C:\Users\Maxence\Desktop\Mon BOT\BoxyBot\obj\Debug\BoxyBot.csproj.CoreCompileInputs.cache
+C:\Users\Maxence\Desktop\Mon BOT\BoxyBot\obj\Debug\BoxyBot.exe
+C:\Users\Maxence\Desktop\Mon BOT\BoxyBot\obj\Debug\BoxyBot.pdb
