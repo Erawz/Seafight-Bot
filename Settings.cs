@@ -1,15 +1,15 @@
-﻿namespace BoxyBot.Properties {
+namespace BoxyBot.Properties {
     
     
-    // Diese Klasse ermöglicht die Behandlung bestimmter Ereignisse der Einstellungsklasse:
-    //  Das SettingChanging-Ereignis wird ausgelöst, bevor der Wert einer Einstellung geändert wird.
-    //  Das PropertyChanged-Ereignis wird ausgelöst, nachdem der Wert einer Einstellung geändert wurde.
-    //  Das SettingsLoaded-Ereignis wird ausgelöst, nachdem die Einstellungswerte geladen wurden.
-    //  Das SettingsSaving-Ereignis wird ausgelöst, bevor die Einstellungswerte gespeichert werden.
+    // Cette classe vous permet de gérer certains événements de la classe de préférence:
+    //  L'événement SettingChanging se déclenche avant de modifier la valeur d'un paramètre.
+    //  L'événement PropertyChanged est déclenché après la modification de la valeur d'un paramètre.
+    //  L'événement SettingsLoaded se déclenche après le chargement des valeurs de réglage.
+    //  L'événement SettingsSaving est déclenché avant que les valeurs de paramètres ne soient enregistrées.
     internal sealed partial class Settings {
         
         public Settings() {
-            // // Heben Sie die Auskommentierung der unten angezeigten Zeilen auf, um Ereignishandler zum Speichern und Ändern von Einstellungen hinzuzufügen:
+            // // Décommentez les lignes ci-dessous pour ajouter des gestionnaires d'événements permettant de sauvegarder et de modifier les paramètres:
             //
             // this.SettingChanging += this.SettingChangingEventHandler;
             //
@@ -18,11 +18,11 @@
         }
         
         private void SettingChangingEventHandler(object sender, System.Configuration.SettingChangingEventArgs e) {
-            // Fügen Sie hier Code zum Behandeln des SettingChangingEvent-Ereignisses hinzu.
+            // Ajoutez du code pour gérer l'événement SettingChangingEvent.
         }
         
         private void SettingsSavingEventHandler(object sender, System.ComponentModel.CancelEventArgs e) {
-            // Fügen Sie hier Code zum Behandeln des SettingsSaving-Ereignisses hinzu.
+            // Ajoutez du code pour gérer l'événement SettingsSaving ici.
         }
     }
 }
