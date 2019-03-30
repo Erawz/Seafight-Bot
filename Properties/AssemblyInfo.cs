@@ -11,7 +11,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Erawz")]
 [assembly: AssemblyProduct("BountyBot")]
-[assembly: AssemblyCopyright("Copyright ©  2017 - 2018")]
+[assembly: AssemblyCopyright("Copyright ©  2018 - 2019")]
 [assembly: AssemblyTrademark("Erawz")]
 [assembly: AssemblyCulture("")]
 
